@@ -16,3 +16,17 @@ h1 {
   border-bottom: solid 3px #364e96;　/*下線*/
 }
 
+header {
+   padding: 30px 4% 10px;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+
+.headerh1 {
+   margin: 0; padding: 0;
+   font-size: 20px;
+}

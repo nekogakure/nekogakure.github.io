@@ -33,7 +33,7 @@ h1:before {
     border-top: solid 2px black;
     border-bottom: solid 2px black;
 }
-.box:before, .box17:after{
+.box:before, .box:after{
     content: '';
     position: absolute;
     top: -10px;

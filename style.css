@@ -32,7 +32,7 @@ header {
    font-size: 20px;
 }
 
-a {	
+.header-a {	
   margin: 10px; 
   text-decoration: none;
    color: #4b4b4b;

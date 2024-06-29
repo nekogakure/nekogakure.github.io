@@ -15,6 +15,19 @@ const init_header = () => {
   header.innerHTML = header_inner;
   document.body.prepend(header);
 };
-const main=()=>{
+const init_footer = () => {
+  const footer_inner = `
+    <div>
+      <p class="footer-text">
+        Copyright &copy; All rights reserved by nekogakure.
+      </p>
+    </div>`;
+  const footer=document.createElement("footer");
+  footer.innerHTML=footer_inner;
+  document.body.append(footer);
+};
+const main = () => {
   init_header();
-};main();
+  init_footer();
+}; 
+main();

@@ -96,7 +96,7 @@ footer{
    display: flex;
    align-items: center;
 }
-.footer-div p {
+.copy {
    margin: 0 auto; padding: auto;
    font-size: 5px;
    text-align: center;

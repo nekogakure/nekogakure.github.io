@@ -9,15 +9,6 @@ body {
    background-color: #c0c0c0;
 }
 
-.toph1 {
-   color: fffafa;
-   bottom: 15％;
-   padding: 0.5em 0;
-   margin: 45px 0;
-   border-right: 3px #fffafa;
-   border-left: 3px #fffafa;
-}
-
 h2 {
   color: #364e96;　/*文字色*/
   padding: 0.5em 0;　/*上下の余白*/
@@ -71,4 +62,13 @@ nav {
 .box p {
     margin: 0; 
     padding: 0;
+}
+
+.toph1 {
+   color: fffafa;
+   bottom: 15％;
+   padding: 0.5em 0;
+   margin: 45px 0;
+   border-right: 3px #fffafa;
+   border-left: 3px #fffafa;
 }

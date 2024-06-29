@@ -67,11 +67,14 @@ nav {
     background: white;
     border-top: solid 5px #5d627b;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+
+   border-radius: 10px;
 }
 .box p {
     margin: 0; 
     padding: 0;
 }
+
 
 .first_header {
    color: fffafa;

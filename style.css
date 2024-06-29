@@ -97,12 +97,12 @@ footer{
    align-items: center;
 }
 .footer-div p {
-   margin: 0 auto; padding: 0;
-   font-size: 20px;
+   margin: 0 auto; padding: auto;
+   font-size: 5px;
    text-align: center;
 }
 
-footer-div a {	
+.footer-div a {	
   margin: 10px; 
   text-decoration: none;
    color: #4b4b4b;

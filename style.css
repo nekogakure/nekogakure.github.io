@@ -87,3 +87,24 @@ nav {
 img {
 width: 75%;
 }
+
+footer{
+   padding: 30px auto 10px
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+footer
+ {
+   margin: 0; padding: 0;
+   font-size: 20px;
+}
+
+footer a {	
+  margin: 10px; 
+  text-decoration: none;
+   color: #4b4b4b;
+}
+

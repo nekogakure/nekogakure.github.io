@@ -96,13 +96,13 @@ footer{
    display: flex;
    align-items: center;
 }
-footer p {
+.footer-div p {
    margin: 0 auto; padding: 0;
    font-size: 20px;
    text-align: center;
 }
 
-footer a {	
+footer-div a {	
   margin: 10px; 
   text-decoration: none;
    color: #4b4b4b;

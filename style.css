@@ -9,6 +9,14 @@ body {
    background-color: #c0c0c0;
 }
 
+.toph1 {
+   color: fffafa;
+   bottom: 45px;
+   padding: 0.5em 0;
+   border-right: 3px #fffafa;
+   border-left: 3px #fffafa;
+}
+
 h2 {
   color: #364e96;　/*文字色*/
   padding: 0.5em 0;　/*上下の余白*/

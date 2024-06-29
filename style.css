@@ -53,7 +53,7 @@ nav {
 
 .box{
     padding: 0 5%;
-    margin: -5% 5%;
+    margin: 0 5%;
     color: #5d627b;
     background: white;
     border-top: solid 5px #5d627b;
@@ -64,7 +64,7 @@ nav {
     padding: 0;
 }
 
-.toph1 {
+.fastheader1 {
    color: fffafa;
    bottom: 15％;
    padding: 0.5em 0;

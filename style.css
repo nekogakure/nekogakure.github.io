@@ -1,3 +1,4 @@
+//初期化
 * {
    box-sizing: border-box;
 }
@@ -5,7 +6,7 @@
 body {
    margin: 0;
    padding: 0;
-   font-family: 'Noto Sans JP', Arial, Helvetica, sans-serif;
+   font-family: 'Noto Sans JP', sans-serif;
    background-color: #c0c0c0;
 }
 
@@ -17,14 +18,10 @@ h1 {
 }
 
 h2 {
-   color: #364e96;
-   /*文字色*/
-   padding: 0.5em 0;
-   /*上下の余白*/
-   border-top: solid 3px #364e96;
-   /*上線*/
-   border-bottom: solid 3px #364e96;
-   /*下線*/
+  color: #364e96;　/*文字色*/
+  padding: 0.5em 0;　/*上下の余白*/
+  border-top: solid 3px #364e96;　/*上線*/
+  border-bottom: solid 3px #364e96;　/*下線*/
 }
 
 header {
@@ -38,14 +35,10 @@ header {
 }
 
 .headerh1 {
-   margin: 0;
-   padding: 0;
+   margin: 0; padding: 0;
    font-size: 20px;
 }
 
-
-a {
-   text-decoration: none;
 .header-a {	
   margin: 10px; 
   text-decoration: none;
@@ -67,11 +60,19 @@ nav {
    margin:0;
 }
 
-}
+.box{
+    padding: 5% 5%;
+    margin: 5% 5%;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 
+   border-radius: 10px;
+}
 .box p {
-   margin: 0;
-   padding: 0;
+    margin: 0; 
+    padding: 0;
 }
 
 .first_header {
@@ -81,4 +82,59 @@ nav {
    margin: 45px 0;
    border-right: 3px #fffafa;
    border-left: 3px #fffafa;
+}
+
+img {
+width: 75%;
+}
+
+footer{
+   padding: 30px auto 10px
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+}
+.copy {
+   margin: 0 auto; padding: auto;
+   font-size: 5px;
+   text-align: center;
+}
+
+.footer-div a {	
+  margin: 10px; 
+  text-decoration: none;
+   color: #4b4b4b;
+   text-align: center;
+   margin: 0 auto;
+}
+
+a.btn_12 {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 4rem 1rem 3rem;
+	font-weight: bold;
+	background: #27acd9;
+	color: #fff;
+	border-radius: 100vh;
+	position: relative;
+	transition: 0.5s;
+}
+a.btn_12::before {
+	content: '';
+	width: 7px;
+	height: 7px;
+	border-top: 2px solid #fff;
+	border-right: 2px solid #fff;
+	transform: rotate(45deg);
+}
+a.btn_12:hover {
+	background: #44c6f2;
+	color: #fff;
 }

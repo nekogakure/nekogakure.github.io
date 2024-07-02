@@ -8,6 +8,7 @@ const init_header = () => {
         <li><a href="/">HOME</a></li>
         <li><a href="/blog">BLOG</a></li>
         <li><a href="/contact">CONTACT</a></li>
+        <li><a href="/games" class="header-a">GAMES</a></li>
       </ul>
     </nav>
   `;

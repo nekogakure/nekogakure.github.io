@@ -9,23 +9,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<title>ねこがくれのホームページ | ERROR</title>
+<title>ねこがくれのホームページ | HOME</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="favicon.ico">
 <link rel="canonical" href="">
 <link rel="icon" href="data/favicon.ico">
 <link rel="apple-touch-icon" href=data/favicon.ico">
-<script defer src="script.js"></script>
 </head>
 
 <body>
   <!-- START Header Area -->
   <header>
-    <h1 class = "headerh1">
-        <a href="/" class="header-a">ねこがくれのホームページ</a>
-    </h1>
-　　　<nav class="pc-nav">
-    <header>
     <h1 class = "headerh1">
         <a href="/" class="header-a">ねこがくれのホームページ</a>
     </h1>
@@ -44,23 +38,46 @@
   <!-- START Main Area -->
   <main>
     <div align="center">
+      <!--<img src="data/img/title.webp" alt="ねこがくれのホームページ">-->
       <h1 class="first_header">ねこがくれのホームページ</h1>
-      <div class="box">
-        <h2>ぼやき一覧</h2>
-    　  <div id="posts"></div>
-      </div> 
-        <a href="/" class="btn_12">HOME</a>
+          <section class="list">
+      <div id="list-head">
+        <h1>Blog List</h1>
+        <div>
+          <img
+            onclick="search_articles()"
+            src="../image/Infinity-search.svg"
+            alt="" />
+          <input id="search" type="text" onchange="search_articles()" />
+        </div>
+      </div>
+      <div id="blog-button-section">
+        <button
+          class="blog-button show-blog-button"
+          id="load-more"
+          onclick="load_articles();">
+          <p
+            alt=""
+            class="loading-infinity">Loading</p>
+          <div>
+            <h1>Load more</h1>
+            <p></p>
+          </div>
+        </button>
+      </div>
+          </section>
+
   </main>
   <!-- END Main Area -->
 
   <!-- START Footer Area -->
-<footer>
+  <footer>
     <div class="footer-div">
     <p class = copy">Copyright © All rights reserved by nekogakure.</p>
     </div>
   </footer>
-    <!-- END Footer Area -->
+  <!-- END Footer Area -->
 
 </body>
 
-   </html>
+</html>
